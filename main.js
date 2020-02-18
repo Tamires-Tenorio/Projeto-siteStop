@@ -11,37 +11,28 @@ if(confirmation=="1")
 {
     var correct=document.write("Resposta 1 Certa ")
 }
-if (quest2=="A"||quest2=="a")
+else{ var correct=document.write("Resposta 1 Errada ")
+}
+if(quest2=="A"||quest2=="a")
 {
-    var correct=document.write("Resposta 2 Certa ")
+    var correct=document.write("Resposta 1 Certa ")
+}
+else{ var correct=document.write("Resposta 1 Errada ")
 }
 if(quest3=="A"||quest3=="a")
 {
-    var correct=document.write("Resposta 3 Certa ")
+    var correct=document.write("Resposta 1 Certa ")
+}
+else{ var correct=document.write("Resposta 1 Errada ")
 }
 
-if(quest1=="B"||quest1=="b")
-{
-    var correct=document.write("Resposta 1 Errada ")
-}
-
-if(quest2=="B"||quest2=="b")
-{
-    var correct=document.write("Resposta 2 Errada ")
-}
-
-if(quest3=="B"||quest3=="b")
-{
-    var correct=document.write("Resposta 3 Errada ")
-}
 
 }
 
-  
-if(confirmation=="2")
-{
-var cancel=document.write(" Obrigada pela vista!")
-}
+
+
+
+
 
 
 

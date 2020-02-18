@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    /*padding: 0px; */
+}
+/*seletore*/
+
+.titulo{
+    background-color: chartreuse;
+    text-align: center;
+    /* display*/
+}
+.categorias{
+    display: inline-block;
+    width: 20%;
+    border: 1px solid black;
+    height: 300px;
+}
+h2{
+    border: 1px solid black;
+}

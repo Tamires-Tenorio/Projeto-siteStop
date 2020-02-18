@@ -11,19 +11,19 @@ if(confirmation=="1")
 {
     var correct=document.write("Resposta 1 Certa ")
 }
-else{ var correct=document.write("Resposta 1 Errada ")
+else{ var wrong=document.write("Resposta 1 Errada ")
 }
 if(quest2=="A"||quest2=="a")
 {
-    var correct=document.write("Resposta 1 Certa ")
+    var correct=document.write("Resposta 2 Certa ")
 }
-else{ var correct=document.write("Resposta 1 Errada ")
+else{ var wrong=document.write("Resposta 2 Errada ")
 }
 if(quest3=="A"||quest3=="a")
 {
-    var correct=document.write("Resposta 1 Certa ")
+    var correct=document.write("Resposta 3 Certa ")
 }
-else{ var correct=document.write("Resposta 1 Errada ")
+else{ var wrong=document.write("Resposta 3 Errada ")
 }
 
 
